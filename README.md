@@ -23,7 +23,6 @@ npm install @epreston/eslintrc --save-dev
       "no-console": "off"
     }
   },
-  // other package meta...
 }
 ```
 
