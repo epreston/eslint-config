@@ -39,6 +39,7 @@ npm install @epreston/eslintrc --save-dev
 | Website          | Reference                                     |
 | ---------------- | --------------------------------------------- |
 | Configure ESLint | https://eslint.org/docs/latest/use/configure/ |
+| ESlint Rules     | https://eslint.org/docs/rules/                |
 
 ## License
 
