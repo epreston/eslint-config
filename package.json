@@ -11,7 +11,7 @@
     "url": "git+https://github.com/epreston/eslint-config.git"
   },
   "keywords": [
-    "eslintrc",
+    "eslint-config",
     "shared",
     "configuration"
   ],
