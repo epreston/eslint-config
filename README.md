@@ -22,7 +22,7 @@ npm install @epreston/eslintrc --save-dev
     "rules": {
       "no-console": "off"
     }
-  },
+  }
 }
 ```
 
@@ -30,8 +30,8 @@ npm install @epreston/eslintrc --save-dev
 
 | Tool         | Reference                |
 | ------------ | ------------------------ |
-| ESLint       | https://eslint.org/      |
-| Node.js      | https://nodejs.org/      |
+| ESLint       | https://eslint.org       |
+| Node.js      | https://nodejs.org       |
 | EditorConfig | https://editorconfig.org |
 
 ## References
