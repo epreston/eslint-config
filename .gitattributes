@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Files to remove from language stats for this project
+# *.js linguist-vendored
+
+CHANGELOG.md export-ignore
+LICENSE eol=crlf
+
+# Binary file types.
+*.webp binary
+*.png binary
+*.jpg binary
