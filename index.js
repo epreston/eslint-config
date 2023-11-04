@@ -12,6 +12,8 @@ module.exports = {
 
   extends: ['eslint:recommended', 'prettier'],
 
+  ignorePatterns: ['dist', 'public', 'coverage', '/notes', '/meta'],
+
   rules: {
     'no-debugger': 'error',
     'no-console': ['error', { allow: ['warn', 'error'] }],
