@@ -18,6 +18,7 @@ npm install @epreston/eslint-config --save-dev
 ```json
 {
   "eslintConfig": {
+    "root": true,
     "extends": "@epreston/eslint-config",
     "rules": {
       "no-console": "off"
