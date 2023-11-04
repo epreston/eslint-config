@@ -48,5 +48,5 @@ This project is released under the MIT [License](LICENSE).
 
 [npm-badge]: https://img.shields.io/npm/v/@epreston/eslint-config
 [npm-url]: https://www.npmjs.com/package/@epreston/eslint-config
-[license-badge]: https://img.shields.io/npm/l/@epreston/eslint-config
+[license-badge]: https://img.shields.io/npm/l/@epreston/eslint-config.svg
 [license-url]: LICENSE
