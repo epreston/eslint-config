@@ -1,14 +1,14 @@
 {
-  "name": "@epreston/eslintrc",
+  "name": "@epreston/eslint-config",
   "version": "1.0.0",
   "description": "Shared ESLint Configuration for my projects",
-  "main": ".eslintrc.json",
+  "main": "index.js",
   "files": [
-    ".eslintrc.json"
+    "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epreston/eslintrc.git"
+    "url": "git+https://github.com/epreston/eslint-config.git"
   },
   "keywords": [
     "eslintrc",
@@ -18,9 +18,9 @@
   "author": "Ed Preston",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epreston/eslintrc/issues"
+    "url": "https://github.com/epreston/eslint-config/issues"
   },
-  "homepage": "https://github.com/epreston/eslintrc/tree/main/#readme",
+  "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
   "dependencies": {
     "eslint-config-prettier": "^9.0.0"
   },
