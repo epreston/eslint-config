@@ -6,8 +6,3 @@
 
 CHANGELOG.md export-ignore
 LICENSE eol=crlf
-
-# Binary file types.
-*.webp binary
-*.png binary
-*.jpg binary
