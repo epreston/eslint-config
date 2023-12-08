@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
   "dependencies": {
-    "eslint-config-prettier": "^9.0.0"
+    "eslint-config-prettier": "^9.1.0"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
