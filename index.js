@@ -4,10 +4,12 @@ import globals from 'globals';
 
 export default [
   {
+    name: 'epreston/shared/exclusions',
     ignores: ['**/dist', '**/public', '**/coverage', 'notes', 'meta'],
   },
   js.configs.recommended,
   {
+    name: "epreston/shared/rules",
     languageOptions: {
       globals: {
         ...globals.browser,
