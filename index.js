@@ -5,7 +5,7 @@ import globals from 'globals';
 
 export default [
   {
-    name: 'epreston/shared/exclusions',
+    name: 'epreston/shared/ignores',
     ignores: ['**/dist', '**/public', '**/coverage', 'notes', 'meta'],
   },
   js.configs.recommended,
