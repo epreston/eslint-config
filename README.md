@@ -1,6 +1,6 @@
 # eslint-config
 
-Shared [ESLint Configuration](https://eslint.org/docs/latest/extend/shareable-configs) for my projects.
+Shared [ESLint Configuration](https://eslint.org/docs/latest/extend/shareable-configs) for my projects. Version 2.0 and beyond uses the "flat config format".
 
 [![NPM version][npm-badge]][npm-url]
 [![License][license-badge]][license-url]
