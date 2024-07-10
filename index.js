@@ -1,4 +1,5 @@
 import js from '@eslint/js';
+import stylisticJs from '@stylistic/eslint-plugin-js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import globals from 'globals';
 
@@ -20,14 +21,18 @@ export default [
       sourceType: 'module',
     },
 
+    plugins: {
+      '@stylistic/js': stylisticJs
+    },
+
     rules: {
       'no-debugger': 'error',
       'no-console': ['error', { allow: ['warn', 'error'] }],
 
       eqeqeq: ['error', 'smart'],
-      semi: 'error',
 
-      quotes: [
+      '@stylistic/js/semi': 'error',
+      '@stylistic/js/quotes': [
         'error',
         'single',
         {
@@ -35,8 +40,7 @@ export default [
           allowTemplateLiterals: true,
         },
       ],
-
-      'quote-props': ['error', 'consistent-as-needed'],
+      '@stylistic/js/quote-props': ['error', 'consistent-as-needed'],
 
       'no-throw-literal': ['error'],
 

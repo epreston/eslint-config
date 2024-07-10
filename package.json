@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
   "dependencies": {
+    "@stylistic/eslint-plugin-js": "^2.3.0",
     "eslint-config-prettier": "^9.1.0"
   },
   "peerDependencies": {
