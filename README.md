@@ -29,6 +29,16 @@ export default [
 ];
 ```
 
+## Validation
+
+```sh
+# for validating a project configuration
+npx eslint --inspect-config
+
+# for validating this shared configuration
+npx eslint --config index.js --inspect-config
+```
+
 ## Tools
 
 | Tool         | Reference                |
