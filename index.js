@@ -12,13 +12,12 @@ export default [
   {
     name: "epreston/shared/rules",
     languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: 'module',
       globals: {
         ...globals.browser,
         ...globals.node,
       },
-
-      ecmaVersion: 2022,
-      sourceType: 'module',
     },
 
     plugins: {
