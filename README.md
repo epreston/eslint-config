@@ -13,18 +13,20 @@ npm install @epreston/eslint-config --save-dev
 
 ## Usage
 
-`package.json`
+```js
+// eslint.config.js
+import sharedConfig from "@epreston/eslint-config";
 
-```json
-{
-  "eslintConfig": {
-    "root": true,
-    "extends": "@epreston/eslint-config",
-    "rules": {
-      "no-console": "off"
-    }
-  }
-}
+export default [
+  ...sharedConfig,
+
+  // anything from here will override sharedConfig
+  {
+    rules: {
+      "no-unused-vars": "warn",
+    },
+  },
+];
 ```
 
 ## Tools
