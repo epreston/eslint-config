@@ -1,9 +1,9 @@
 {
   "type": "module",
   "name": "@epreston/eslint-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Shared ESLint Configuration for my projects",
-  "module": "index.js",
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
