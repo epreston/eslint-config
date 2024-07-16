@@ -3,7 +3,7 @@
   "name": "@epreston/eslint-config",
   "version": "2.0.1",
   "description": "Shared ESLint Configuration for my projects",
-  "main": "index.js",
+  "module": "index.js",
   "files": [
     "index.js"
   ],
