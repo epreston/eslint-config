@@ -11,7 +11,7 @@ export default [
   },
   js.configs.recommended,
   {
-    name: "epreston/shared/rules",
+    name: 'epreston/shared/rules',
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
@@ -27,7 +27,7 @@ export default [
     },
 
     plugins: {
-      '@stylistic/js': stylisticJs
+      '@stylistic/js': stylisticJs,
     },
 
     rules: {
