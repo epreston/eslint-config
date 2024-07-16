@@ -8,9 +8,9 @@
     "index.js"
   ],
   "keywords": [
-    "eslint-config",
-    "shared",
-    "configuration"
+    "eslint",
+    "eslintconfig",
+    "shared"
   ],
   "author": "Ed Preston",
   "license": "MIT",
