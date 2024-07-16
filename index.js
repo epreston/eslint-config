@@ -22,6 +22,10 @@ export default [
       },
     },
 
+    linterOptions: {
+      reportUnusedDisableDirectives: true,
+    },
+
     plugins: {
       '@stylistic/js': stylisticJs
     },
