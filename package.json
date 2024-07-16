@@ -14,10 +14,7 @@
   ],
   "author": "Ed Preston",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/epreston/eslint-config.git"
-  },
+  "repository": "github:epreston/eslint-config",
   "bugs": {
     "url": "https://github.com/epreston/eslint-config/issues"
   },
