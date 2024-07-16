@@ -15,9 +15,7 @@
   "author": "Ed Preston",
   "license": "MIT",
   "repository": "github:epreston/eslint-config",
-  "bugs": {
-    "url": "https://github.com/epreston/eslint-config/issues"
-  },
+  "bugs": "https://github.com/epreston/eslint-config/issues",
   "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
   "dependencies": {
     "@eslint/js": "^9.7.0",
