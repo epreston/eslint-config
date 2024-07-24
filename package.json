@@ -3,6 +3,11 @@
   "name": "@epreston/eslint-config",
   "version": "2.1.1",
   "description": "Shared ESLint Configuration for my projects",
+  "author": "Ed Preston",
+  "license": "MIT",
+  "repository": "github:epreston/eslint-config",
+  "bugs": "https://github.com/epreston/eslint-config/issues",
+  "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
@@ -15,11 +20,6 @@
     "eslintconfig",
     "shared"
   ],
-  "author": "Ed Preston",
-  "license": "MIT",
-  "repository": "github:epreston/eslint-config",
-  "bugs": "https://github.com/epreston/eslint-config/issues",
-  "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
   "dependencies": {
     "@eslint/js": "^9.7.0",
     "@stylistic/eslint-plugin-js": "^2.3.0",
