@@ -8,18 +8,22 @@
   "repository": "github:epreston/eslint-config",
   "bugs": "https://github.com/epreston/eslint-config/issues",
   "homepage": "https://github.com/epreston/eslint-config/tree/main/#readme",
-  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "shared"
+  ],
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "index.js"
   ],
-  "keywords": [
-    "eslint",
-    "eslintconfig",
-    "shared"
-  ],
+  "main": "index.js",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
+  },
   "dependencies": {
     "@eslint/js": "^9.7.0",
     "@stylistic/eslint-plugin-js": "^2.3.0",
@@ -28,8 +32,5 @@
   },
   "peerDependencies": {
     "eslint": ">=9.0.0"
-  },
-  "engines": {
-    "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
   }
 }
