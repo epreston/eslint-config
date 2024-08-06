@@ -3,7 +3,7 @@ import stylisticJs from '@stylistic/eslint-plugin-js';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import globals from 'globals';
 
-/** @type { import('eslint').Linter.FlatConfig[] } */
+/** @type { import('eslint').Linter.Config[] } */
 export default [
   {
     name: 'epreston/shared/ignores',
