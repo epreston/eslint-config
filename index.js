@@ -1,6 +1,6 @@
 import js from '@eslint/js';
-import stylisticJs from '@stylistic/eslint-plugin-js';
-import eslintConfigPrettier from 'eslint-config-prettier';
+import stylistic from '@stylistic/eslint-plugin';
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 import globals from 'globals';
 
 /** @type { import('eslint').Linter.Config[] } */
@@ -27,7 +27,7 @@ export default [
     },
 
     plugins: {
-      '@stylistic/js': stylisticJs,
+      '@stylistic': stylistic,
     },
 
     rules: {
@@ -36,8 +36,8 @@ export default [
 
       eqeqeq: ['error', 'smart'],
 
-      '@stylistic/js/semi': 'error',
-      '@stylistic/js/quotes': [
+      '@stylistic/semi': 'error',
+      '@stylistic/quotes': [
         'error',
         'single',
         {
@@ -45,7 +45,7 @@ export default [
           allowTemplateLiterals: true,
         },
       ],
-      '@stylistic/js/quote-props': ['error', 'consistent-as-needed'],
+      '@stylistic/quote-props': ['error', 'consistent-as-needed'],
 
       'no-throw-literal': ['error'],
 
