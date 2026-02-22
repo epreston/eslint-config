@@ -23,7 +23,7 @@
     "index.js"
   ],
   "main": "index.js",
-  "packageManager": "npm@11.8.0",
+  "packageManager": "npm@11.10.1",
   "engines": {
     "node": "^22.22.0 || >=24.13.0"
   },
