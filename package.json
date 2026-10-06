@@ -23,9 +23,9 @@
     "index.js"
   ],
   "main": "index.js",
-  "packageManager": "npm@11.10.1",
+  "packageManager": "npm@12.2.0",
   "engines": {
-    "node": "^22.22.0 || >=24.13.0"
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
   },
   "dependencies": {
     "@eslint/js": "^10.0.1",
