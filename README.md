@@ -21,8 +21,14 @@ import sharedConfig from "@epreston/eslint-config";
 export default [
   ...sharedConfig,
 
-  // anything from here will override sharedConfig
+  // override sharedConfig as needed
   {
+    // ignores must be completely separate from other rules
+    name: 'project/ignores',
+    ignores: ['**/build/*/lib', '**/build/*/inc']
+  },
+  {
+    name: 'project/rules',
     rules: {
       "no-unused-vars": "warn",
     },
